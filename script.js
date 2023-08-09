@@ -1,0 +1,12 @@
+console.log('Hello world!')
+
+let signInBtn = document.getElementById('sign-in-btn')
+// let signInBtn = document.querySelector('#sign-in-btn')
+let modal = document.querySelector('.modal')
+// CSS селекторы
+
+signInBtn.onclick = function(event) {
+    event.preventDefault()
+    modal.classList.add('show')
+    // modal.style.display = 'flex' так делат не надо
+}

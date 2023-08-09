@@ -252,7 +252,7 @@ footer {
     position: fixed;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -305,6 +305,10 @@ footer {
     text-align: center;
     font-size: 2rem;
     margin-top: 0;
+}
+
+.modal.show {
+    display: flex;
 }
 
 
