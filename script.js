@@ -8,5 +8,12 @@ let modal = document.querySelector('.modal')
 signInBtn.onclick = function(event) {
     event.preventDefault()
     modal.classList.add('show')
-    // modal.style.display = 'flex' так делат не надо
+    // modal.style.display = 'flex' так делать не надо
+}
+
+modal.onclick = function(event) {
+    
+    if (event.target.classList.contains('modal')) {
+        modal.classList.remove('show')
+    }
 }
