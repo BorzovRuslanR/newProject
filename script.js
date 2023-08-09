@@ -22,3 +22,8 @@ let closeModalBtn = document.querySelector('.close-modal-btn')
 closeModalBtn.onclick = function(event) {
     modal.classList.remove('show')
 }
+
+let toggleThemeBtn = document.getElementById('toggle-theme')
+toggleThemeBtn.onclick = function() {
+    document.body.classList.toggle('dark')
+}

@@ -16,6 +16,13 @@
     --backgrond-hero:rgb(247,250,252);
 }
 
+.dark {
+    --text-gray-900: white;
+    background-color: rgb(44,44,44);
+    --backgrond-hero: rgb(76,76,76);
+    
+}
+
 * {
     box-sizing: border-box;
 }
@@ -67,7 +74,7 @@ header span {
 
 header a {
     text-decoration: none;
-    color: rgb(26,32,44);
+    color: var(--text-gray-900);
 }
 nav a {
   font-weight: 700;
@@ -179,7 +186,7 @@ nav ul {
 
 .hero2 h2 {
     font-size: 1.5rem;
-    color: var(--text-gray-900);
+    color: rgb(26,32,44);
 }
 
 .hero2 h2 div:last-child  {
@@ -347,6 +354,8 @@ footer {
 .close-modal-btn::before {
     transform: rotate(45deg);
 }
+
+
 
 /* .close-modal-btn:hover::before, .close-modal-btn:hover::after { 
     background-color: var(--text-gray-900);
