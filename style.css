@@ -311,6 +311,33 @@ footer {
     display: flex;
 }
 
+.close-modal-btn {
+    width: 2rem;
+    height: 2rem;
+    /* display: flex; */
+    position: relative;
+}
+
+.close-modal-btn::before, .close-modal-btn::after {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    background-color: var(--text-gray-900);
+    border-radius: 2px;
+    position: absolute;
+    margin: auto;
+    inset: 0; 
+}
+
+.close-modal-btn::after{
+    transform: rotate(-45deg);
+}
+
+.close-modal-btn::before {
+    transform: rotate(45deg);
+}
+
 
 
 @media (min-width: 640px) {
