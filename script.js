@@ -17,3 +17,8 @@ modal.onclick = function(event) {
         modal.classList.remove('show')
     }
 }
+
+let closeModalBtn = document.querySelector('.close-modal-btn')
+closeModalBtn.onclick = function(event) {
+    modal.classList.remove('show')
+}
