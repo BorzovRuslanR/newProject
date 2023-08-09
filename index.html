@@ -8,34 +8,36 @@
   </head>
   <body>
     <section class="hero">
-      <header>
-        <a class="main-logo" href="#">
-          <span
-            ><svg
-              class="logo"
-              xmlns="http://www.w3.org/2000/svg"
-              width="44"
-              height="44"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M0 0h24v24H0z" stroke="none"></path>
-              <rect x="3" y="12" width="6" height="8" rx="1"></rect>
-              <rect x="9" y="8" width="6" height="12" rx="1"></rect>
-              <rect x="15" y="4" width="6" height="16" rx="1"></rect>
-              <path d="M4 20h14"></path>
-              </svg>Starter</span>
-        </a>
-        <nav>
-          <ul>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Sign in</a></li>
-          </ul>
-        </nav>
-      </header>
+      <div class="main-menu">
+        <header>
+          <a class="main-logo" href="#">
+            <span
+              ><svg
+                class="logo"
+                xmlns="http://www.w3.org/2000/svg"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M0 0h24v24H0z" stroke="none"></path>
+                <rect x="3" y="12" width="6" height="8" rx="1"></rect>
+                <rect x="9" y="8" width="6" height="12" rx="1"></rect>
+                <rect x="15" y="4" width="6" height="16" rx="1"></rect>
+                <path d="M4 20h14"></path>
+                </svg>Starter</span>
+          </a>
+          <nav>
+            <ul>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Sign in</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
       <div class="header">
         <h1>
           The modern landing page for
@@ -185,6 +187,14 @@
         </div>
       </div>
     </footer>
+    <div class="modal">
+      <form class="login-form">
+        <h2>Login</h2>
+        <input type="text" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit" class="btn-login">Login</button>
+      </form>
+    </div>
   </body>
 </html>
         
