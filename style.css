@@ -355,6 +355,66 @@ footer {
     transform: rotate(45deg);
 }
 
+.dark .check {
+    transform: translate(18px);
+  }
+  
+  .check {
+    position: absolute;
+    transition: all 0.3s;
+    width: 24.7px;
+    height: 24.7px;
+    border-radius: 50%;
+    /* background-color: rgb(255, 255, 255); */
+  }
+  
+  .sun, .moon {
+    position: absolute;
+  }
+  
+  .dark .sun {
+    opacity: 0;
+  }
+  
+  .dark .moon {
+    opacity: 1;
+  }
+  
+  .sun {
+    opacity: 1;
+  }
+  
+  .moon {
+    opacity: 0;
+  }
+
+  #toggle-theme {
+    position: absolute;
+    cursor: pointer;
+    width: 6cqh;
+    height: 30px;
+  }
+
+  .btn-check {
+    position: absolute;
+    top: 40px;
+    right: 380px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 20%;
+
+  }
+
+  .dark .btn-check {
+    background-color: var(--text-color-secondary);
+  }
+
+  .dark .btn-check:hover {
+    border: solid 1px #ffffff;
+  
+  }
+
 
 
 /* .close-modal-btn:hover::before, .close-modal-btn:hover::after { 
