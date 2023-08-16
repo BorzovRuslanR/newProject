@@ -398,7 +398,7 @@ footer {
   .btn-check {
     position: absolute;
     top: 40px;
-    right: 380px;
+    right: 360px;
     display: flex;
     justify-content: start;
     align-items: start;
