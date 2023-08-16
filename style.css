@@ -356,7 +356,7 @@ footer {
 }
 
 .dark .check {
-    transform: translate(18px);
+    transform: translate(22px);
   }
   
   .check {
@@ -391,7 +391,7 @@ footer {
   #toggle-theme {
     position: absolute;
     cursor: pointer;
-    width: 6cqh;
+    width: 50px;
     height: 30px;
   }
 
@@ -403,11 +403,12 @@ footer {
     justify-content: start;
     align-items: start;
     border-radius: 20%;
-
-  }
+    padding: 0;
+    }
 
   .dark .btn-check {
     background-color: var(--text-color-secondary);
+    border-color: #fff;
   }
 
   .dark .btn-check:hover {
