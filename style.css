@@ -371,7 +371,7 @@ footer {
   .sun, .moon {
     position: absolute;
     inset: 0;
-    transition: all 0.3s;
+    transition: all 0.4s;
   }
   
   .dark .sun {
